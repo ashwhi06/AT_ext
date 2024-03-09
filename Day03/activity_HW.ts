@@ -194,7 +194,8 @@ class Administrator extends User { //subclass - inherits from the class User
 
 //create at least one instance of an application user and an administrator
 const user = new User("John"); //create an instance of the class User
-user.readContent(); 
-const admin = new Administrator("Jane"); 
-admin.readContent();
-admin.editContent();
+user.readContent(); //read
+
+const admin = new Administrator("Jane"); //create an instance of the class Administrator
+admin.readContent(); //read
+admin.editContent();//edit
